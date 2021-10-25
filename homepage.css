@@ -216,7 +216,10 @@ body {
 }
 
 .card {
-  height: 280px;
+  width: 60%;
+  max-height: 80%;
+  min-height: 280px;
+
   display: flex;
   flex-direction: column;
   background-color: rgba(20, 19, 19, 0.842);
@@ -225,6 +228,7 @@ body {
 
 .card:hover {
   background-color: rgba(20, 19, 19, 0.418);
+  margin-top: -10px;
 }
 
 .card .card__body .card__meta {
